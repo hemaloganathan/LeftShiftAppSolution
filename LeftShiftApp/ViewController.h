@@ -2,7 +2,7 @@
 //  ViewController.h
 //  LeftShiftApp
 //
-//  Created by Mac Mini on 4/25/14.
+//  Created by hemaLogan on 4/25/14.
 //  Copyright (c) 2014 hemaLogan. All rights reserved.
 //
 
