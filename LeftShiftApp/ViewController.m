@@ -64,7 +64,7 @@
     else{
     for (NSString *city in myArray) {
       NSString* firstString = [myArray objectAtIndex:(it-1)];
-
+firstString = [firstString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 urlAsString = [NSString stringWithFormat:@"http://api.openweathermap.org/data/2.5/forecast/daily?q=%@&units=metric&cnt=14&APPID=%@",firstString,API_KEY ];
    
         [self mainmethod];
